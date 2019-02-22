@@ -1,0 +1,232 @@
+body{
+    margin: 0 auto;
+    background-color: #dcd4d4;
+    width: 100%;
+    font-size: 20px;
+    
+    }
+    
+    
+   
+    /*------------Start OF Nav Bar---------------*/
+    
+    .nav-bar{
+        height:110px;
+        width: 100%;
+        background-color: #000000;
+        position:fixed;
+        top:0;
+        z-index: 1;
+    }
+    
+       .logo{
+        height:100px;
+        width:150px;
+        float:right;
+        margin-top:0px;
+        /*opacity:0.7;*/
+        border:5px solid #4b03a0;
+    }
+    
+    .nav-list{
+        float:right;
+        margin-right:20px;
+        
+
+    }
+    
+  
+    
+    .list-item{
+    list-style-type:none;
+    float:left;
+    margin-right:30px;
+    background-color:#c1c1ac;
+    height:35px;
+    width:70px;
+    border:8px solid #4b03a0;
+    padding-left:10px;
+    padding-top:10px;
+    border-radius:20px;
+    }
+    
+    .list-item:hover {
+        background-color:white;
+    }
+    
+    .anchor{
+    display:inline-block;
+}
+
+.list-item a {
+    color:#2d1414;
+    text-decoration: none;
+}
+
+.anchor:hover{
+    color:#0923a0;
+}
+
+/***************END OF NAV BAR*****************************/
+
+
+/*************START OF HERO********************************/
+
+.hero{
+    background-image:url('../image/PLAYERSBBQLOGO-1.png');
+    background-size:100% 100%;
+    height:600px;
+    width:100%;
+    position:relative;
+    top:60px;
+}
+
+.hero-background{
+    background-color:#dbdcce;
+    position: absolute;
+    bottom:10px;
+    right:10px;
+    border:3px solid #4b4750;
+    box-shadow: 8px 8px #492c6b;
+    border-radius:10px;
+    }
+    
+    
+.hero-text{
+    color:#754F44;
+    padding:10px;
+    font-family: 'Open Sans', sans-serif;
+}
+.main{
+    height:600px;
+    width:100%;
+}
+
+.col-img{
+    width:350px;
+border:10px solid #FFFFFF;
+
+
+}
+
+.box{
+    height:550px;
+    width:45%;
+    border: 6px solid #330000;
+    float:left;
+    margin:75px 25px 65px 30px;
+}
+
+
+
+.main-p{
+    text-align: justify;
+    padding: 25px;
+}
+
+footer{
+background-color:#000000;
+   height: 70px;
+   clear:both;
+    
+}
+
+    
+}
+
+.footer-col{
+   width:33%;
+   float:left;
+}
+
+.footer-buttons, .social, .copyright {
+    margin-top:-13px;
+    margin-left:0px;
+    display:block;
+    
+}
+
+.input{
+    height:30px;
+    width:170px;
+}
+.button{
+    height:30px;
+    width:50px;
+}
+
+.fab{
+    font-size:2em;
+    padding:10px;
+}
+
+.fa-facebook-square{
+    color:#4b03a0;
+}
+
+.fa-instagram{
+    color:#4b03a0;
+}
+
+/*****************START OF ABOUT CSSSS*****************************/
+
+
+.container{
+    height:800px;
+    width:100%;
+    margin-top:92px; 
+}
+
+.column{
+    height:650px;
+    width:30%;
+    border: 6px solid #330000;
+    float:left;
+    margin-left: 25px;
+    margin-top:75px;
+}
+
+.col-img{
+    display:block;
+    margin:0 auto;
+    width:300px;
+}
+
+
+/*audio {*/
+/*    display: block;*/
+/*    margin:0 auto;*/
+/*    margin-top:30px;*/
+/*}*/
+
+
+/**********START OF CONTACT CSS*****************************/
+
+.contact-container{
+    width:100%;
+    height:369px;
+     /*border: 6px solid #330000;*/
+    margin-top:175px;
+    position:relative;
+    margin-bottom:40px;
+}
+
+.contact-col{
+    width:48%;
+    border: 6px solid #330000;
+    position:relative;
+    margin-left:15px
+    
+}
+
+.map{
+    position:absolute;
+    left:0;
+    text-align:center;
+    padding:8px;
+}
+
+.form{
+    position: absolute;
+    left:50%;
+}
